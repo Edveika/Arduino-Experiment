@@ -4,7 +4,7 @@
 
 [Full source code](https://github.com/Edveika/Arduino-LED/blob/main/AllBackward/AllBackward.ino)
 
-# Main loop logic
+# 🧠 Main loop logic
 
 ```c++
 for (int i = LED_END; i >= LED_START; --i)
