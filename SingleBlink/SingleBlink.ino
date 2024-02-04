@@ -1,9 +1,10 @@
-void turnOffLeds()
-{
+// Turns off all of the LEDs
+// NOTE: for some reason on my board HIGH and LOW are inverted
+// HIGH - turn off
+// LOW - turn on
+void turnOffLeds() {
   for (int i = 2; i <= 9; ++i)
-  {
-    digitalWrite(i, LOW);
-  }
+    digitalWrite(i, HIGH);
 }
 
 // the setup function runs once when you press reset or power the board
@@ -13,17 +14,14 @@ void setup() {
     // initialize digital pin i as an output.
     pinMode(i, OUTPUT);
 
+  // Turns off all of the LEDs on launch
   turnOffLeds();
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  
-  for (int i = 2; i <= 9; ++i)
-  {
-    digitalWrite(2, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(1000);                       // wait for a second
-    digitalWrite(2, LOW);    // turn the LED off by making the voltage LOW
-    delay(1000);                       // wait for a second
-  }
+    digitalWrite(2, HIGH);
+    delay(1000);
+    digitalWrite(2, LOW);
+    delay(1000);
 }
