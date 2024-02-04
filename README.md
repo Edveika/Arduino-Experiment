@@ -7,16 +7,16 @@ Just playing around with Arduino and LEDs.
 # 📚 Content
 
 * Blink LED transitions
-  * All LEDs forward
-  * All LEDs backward
-  * All LEDs bounce
-  * LEDs left to right
-  * LEDs right to left
-  * Single LED forward
-  * Single LED backward
-  * Single LED blink
-  * Single LED bounce
-  * Single LED dim
+  * [All forward](https://github.com/Edveika/Arduino-LED/blob/main/AllForward/AllForward.md)
+  * [All backward](https://github.com/Edveika/Arduino-LED/blob/main/AllBackward/AllBackward.md)
+  * [All bounce](https://github.com/Edveika/Arduino-LED/blob/main/BounceAll/BounceAll.md)
+  * [Left to right](https://github.com/Edveika/Arduino-LED/blob/main/LeftToRight/LeftToRight.md)
+  * [Right to left](https://github.com/Edveika/Arduino-LED/blob/main/RightToLeft/RightToLeft.md)
+  * [Single forward](https://github.com/Edveika/Arduino-LED/blob/main/SingleForward/SingleForward.md)
+  * [Single backward](https://github.com/Edveika/Arduino-LED/blob/main/SingleBackward/SingleBackward.md)
+  * [Single blink](https://github.com/Edveika/Arduino-LED/blob/main/SingleBlink/SingleBlink.md)
+  * [Single bounce](https://github.com/Edveika/Arduino-LED/blob/main/SingleBounce/SingleBounce.md)
+  * [Single dim](https://github.com/Edveika/Arduino-LED/blob/main/SingleDim/SingleDim.md)
 
 # ⚠️ Disclaimer
 
