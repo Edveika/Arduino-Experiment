@@ -6,7 +6,7 @@ Just playing around with Arduino and LEDs.
 
 # 📚 Content
 
-* Blink effects
+* Blink transitions
   * All LEDs forward
   * All LEDs backward
   * All LEDs bounce
