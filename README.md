@@ -38,8 +38,9 @@ digitalWrite(LED_BUILTIN, LOW);
 # 🏃 Running
 
 1. Plug in 8 LEDs, pins 2-9(or change START and END pin values in source code)
-2. Upload firmware to Arduino
-3. Enjoy
+2. Make sure to change `digitalWrite` argument values `HIGH` to `LOW` and `LOW` to `HIGH` if needed
+3. Upload firmware to Arduino
+4. Enjoy
 
 # 🧠 Ideas
 
