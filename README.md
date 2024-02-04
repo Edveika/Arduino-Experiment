@@ -33,6 +33,8 @@ digitalWrite(LED_BUILTIN, HIGH);
 digitalWrite(LED_BUILTIN, LOW);
 ```
 
+💥 Some transitions rely on this to work
+
 # 🧠 Ideas
 
 1. Get RGB LEDs and use sorting algorithms to sort LEDs by color(visualize sorting algs)
