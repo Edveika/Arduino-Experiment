@@ -36,7 +36,7 @@ void loop() {
       delay(10);
     }
     // Turn off all of the LEDs to the left
-    for (int j = LED_START; j <= LED_END; ++j)
+    for (int j = LED_START; j <= i; ++j)
     {
       digitalWrite(j, HIGH);
       delay(10);
@@ -59,7 +59,7 @@ void loop() {
       delay(10);
     }
     // Turn off all of the LEDs to the right
-    for (int j = LED_END; j >= LED_START; --j)
+    for (int j = LED_END; j >= i; --j)
     {
       digitalWrite(j, HIGH);
       delay(10);
