@@ -17,6 +17,10 @@ digitalWrite(LED_BUILTIN, HIGH);
 digitalWrite(LED_BUILTIN, LOW);
 ```
 
+# 🧠 Ideas
+
+1. Get RGB LEDs and use sorting algorithms to sort LEDs by color(visualize sorting algs)
+
 # 📜 License
 
 This project is licensed under the GPL v2 [LICENSE](LICENSE).
