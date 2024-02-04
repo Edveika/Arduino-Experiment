@@ -10,45 +10,34 @@
   // Go backwards
   for (int i = LED_END; i >= LED_START; --i)
   {
-    digitalWrite(i, LOW);
-    delay(100);
-
     // Turn on all of the LEDs to the right
-    for (int j = i - 1; j >= LED_START; --j)
+    for (int j = i; j >= LED_START; --j)
     {
       digitalWrite(j, LOW);
       delay(10);
     }
     // Turn off all of the LEDs to the left
-    for (int j = LED_START; j < i; ++j)
+    for (int j = LED_START; j <= i; ++j)
     {
       digitalWrite(j, HIGH);
       delay(10);
     }
-    
-    digitalWrite(i, HIGH);
-    delay(100);
   }
 
   // Go forwards
   for (int i = LED_START; i <= LED_END; ++i)
   {
-    digitalWrite(i, LOW);
-    delay(100);
-
     // Turn on all of the LEDs to the left
-    for (int j = i + 1; j <= LED_END; ++j)
+    for (int j = i; j <= LED_END; ++j)
     {
       digitalWrite(j, LOW);
       delay(10);
     }
     // Turn off all of the LEDs to the right
-    for (int j = LED_END; j > i; --j)
+    for (int j = LED_END; j >= i; --j)
     {
       digitalWrite(j, HIGH);
       delay(10);
     }
-    digitalWrite(i, HIGH);
-    delay(100);
   }
 ```
