@@ -2,6 +2,22 @@
 
 Just playing around with Arduino and LEDs.
 
+![1707073295953](https://github.com/Edveika/Arduino-LED/assets/113787144/224210dc-afc0-4b1b-9d4f-c1398ef482b0)
+
+# 📚 Content
+
+* Blink effects
+  * All LEDs forward
+  * All LEDs backward
+  * All LEDs bounce
+  * LEDs left to right
+  * LEDs right to left
+  * Single LED forward
+  * Single LED backward
+  * Single LED blink
+  * Single LED bounce
+  * Single LED dim
+
 # ⚠️ Disclaimer
 
 For some reason `digitalWrite` with the value of `HIGH` turns the LED off on my board and the `LOW` value turns the LED on, even though on Arduino's site it says that it should work in the opposite way.
