@@ -35,6 +35,12 @@ digitalWrite(LED_BUILTIN, LOW);
 
 💥 Some transitions rely on this to work
 
+# 🏃 Running
+
+1. Plug in 8 LEDs, pins 2-9(or change START and END pin values in source code)
+2. Upload firmware to Arduino
+3. Enjoy
+
 # 🧠 Ideas
 
 1. Get RGB LEDs and use sorting algorithms to sort LEDs by color(visualize sorting algs)
