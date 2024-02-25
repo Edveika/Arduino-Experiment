@@ -4,19 +4,18 @@ Just playing around with Arduino and LEDs.
 
 ![1707073295953](https://github.com/Edveika/Arduino-LED/assets/113787144/224210dc-afc0-4b1b-9d4f-c1398ef482b0)
 
-# 📚 Content
+# 📚 LED Transitions
 
-* Blink LED transitions
-  * [All forward](https://github.com/Edveika/Arduino-LED/blob/main/AllForward/AllForward.md)
-  * [All backward](https://github.com/Edveika/Arduino-LED/blob/main/AllBackward/AllBackward.md)
-  * [All bounce](https://github.com/Edveika/Arduino-LED/blob/main/BounceAll/BounceAll.md)
-  * [Left to right](https://github.com/Edveika/Arduino-LED/blob/main/LeftToRight/LeftToRight.md)
-  * [Right to left](https://github.com/Edveika/Arduino-LED/blob/main/RightToLeft/RightToLeft.md)
-  * [Single forward](https://github.com/Edveika/Arduino-LED/blob/main/SingleForward/SingleForward.md)
-  * [Single backward](https://github.com/Edveika/Arduino-LED/blob/main/SingleBackward/SingleBackward.md)
-  * [Single blink](https://github.com/Edveika/Arduino-LED/blob/main/SingleBlink/SingleBlink.md)
-  * [Single bounce](https://github.com/Edveika/Arduino-LED/blob/main/SingleBounce/SingleBounce.md)
-  * [Single dim](https://github.com/Edveika/Arduino-LED/blob/main/SingleDim/SingleDim.md)
+* [All forward](https://github.com/Edveika/Arduino-LED/blob/main/AllForward/AllForward.md)
+* [All backward](https://github.com/Edveika/Arduino-LED/blob/main/AllBackward/AllBackward.md)
+* [All bounce](https://github.com/Edveika/Arduino-LED/blob/main/BounceAll/BounceAll.md)
+* [Left to right](https://github.com/Edveika/Arduino-LED/blob/main/LeftToRight/LeftToRight.md)
+* [Right to left](https://github.com/Edveika/Arduino-LED/blob/main/RightToLeft/RightToLeft.md)
+* [Single forward](https://github.com/Edveika/Arduino-LED/blob/main/SingleForward/SingleForward.md)
+* [Single backward](https://github.com/Edveika/Arduino-LED/blob/main/SingleBackward/SingleBackward.md)
+* [Single blink](https://github.com/Edveika/Arduino-LED/blob/main/SingleBlink/SingleBlink.md)
+* [Single bounce](https://github.com/Edveika/Arduino-LED/blob/main/SingleBounce/SingleBounce.md)
+* [Single dim](https://github.com/Edveika/Arduino-LED/blob/main/SingleDim/SingleDim.md)
 
 # ⚠️ Disclaimer
 
@@ -41,10 +40,6 @@ digitalWrite(LED_BUILTIN, LOW);
 2. Make sure to change `digitalWrite` argument values `HIGH` to `LOW` and `LOW` to `HIGH` if needed
 3. Upload firmware to Arduino
 4. Enjoy
-
-# 🧠 Ideas
-
-1. Get RGB LEDs and use sorting algorithms to sort LEDs by color(visualize sorting algs)
 
 # 📜 License
 
